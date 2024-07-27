@@ -3,7 +3,7 @@
 function AboutUs() {
   return (
     <section
-      className="   relative overflow-hidden"
+      className="   relative overflow-hidden "
       id="about"
       data-aos="zoom-in-right" data-aos-duration="1500"
     >
@@ -53,7 +53,7 @@ function AboutUs() {
             <p className=" text-center text-[#5C9A1B] font-semibold text-2xl">Join us using the zoom link below</p>
 
            <div className=" flex justify-center">
-           <button className=" bg-[#602166] px-4 py-2 text-xl font-semibold text-white rounded-md my-4 mx-auto"> Join us</button>
+           <button className=" bg-[#5C9A1B] px-12 py-2 text-xl font-semibold text-white rounded-full my-4 mx-auto"> Join us</button>
            </div>
           </div>
         </div>

@@ -67,7 +67,13 @@
 
   }
 
-
+.swiper-button-prev , .swiper-button-next{
+  background: #097cbf70;
+    border-radius: 100px;
+    padding: 30px;
+    border: 2px solid;
+    border-color: blue;
+}
   .txts{
     -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;

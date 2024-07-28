@@ -21,11 +21,11 @@ function Navbar() {
 
         {/* Navigation menu */}
         <div className="hidden md:flex flex-grow justify-center">
-          <a href="/" className="text-white font-bold text-lg px-3 py-2">Home</a>
+          <a href="/" className="text-[#5C9A1B]  font-bold text-lg px-3 py-2">Home</a>
           <a href="#about" className="text-[#5C9A1B] font-bold text-lg px-3 py-2">About</a>
          
          
-          <a href="#contact" className="text-[#5C9A1B] font-bold text-lg px-3 py-2">Contact Us</a>
+          <a href="/contact" className="text-[#5C9A1B] font-bold text-lg px-3 py-2">Contact Us</a>
         </div>
 
         {/* Wallet Connect button */}
@@ -90,7 +90,7 @@ function Navbar() {
           >
             <a href="/" className="text-white font-bold text-lg block px-3 py-2">Home</a>
           
-            <a href="#about" className="text-white font-bold text-lg block px-3 py-2">contact</a>
+            <a href="/contact" className="text-white font-bold text-lg block px-3 py-2">contact</a>
             
             
             <div className=" flex items-center gap-4 text-white mb-6 ml-5">

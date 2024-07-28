@@ -45,7 +45,7 @@ function Footer() {
                     About
                   </a>
 
-                  <a href="#contact" className="text-white  text-sm ">
+                  <a href="/contact" className="text-white  text-sm ">
                     Contact Us
                   </a>
                 </div>

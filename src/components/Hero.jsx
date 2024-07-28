@@ -25,7 +25,7 @@ function Hero() {
             </p>
 
            <div className=" w-[135px]">
-           <a href="/" className=" bg-[#88ce4a] px-2 py-2 text-xl font-semibold text-white rounded-full my-4 shadow-lg flex items-center gap-2"> <img src="images/icon.png" alt="" className="h-[40px] shadow-2xl"  /> Join us</a>
+           <a href="/" className=" bg-[#1e86ff] px-2 py-2 text-xl font-semibold text-white rounded-full my-4 shadow-lg flex items-center gap-2"> <img src="images/icon.png" alt="" className="h-[40px] shadow-2xl"  /> Join us</a>
            </div>
            
           </div>

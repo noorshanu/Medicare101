@@ -52,7 +52,7 @@ function Navbar() {
         {/* Hamburger menu for mobile */}
         <div className="md:hidden">
           <button
-            className="text-white focus:outline-none"
+            className=" text-green-700 focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}
           >
             <svg
@@ -90,12 +90,12 @@ function Navbar() {
           >
             <a href="/" className="text-white font-bold text-lg block px-3 py-2">Home</a>
           
-            <a href="#about" className="text-white font-bold text-lg block px-3 py-2">About</a>
-            <a href="#col" className="text-white font-bold text-lg block px-3 py-2">Features</a>
+            <a href="#about" className="text-white font-bold text-lg block px-3 py-2">contact</a>
+            
             
             <div className=" flex items-center gap-4 text-white mb-6 ml-5">
             <a
-                  href="https://x.com/PurplePepe_Sol"
+                  href="https://x.com/"
                   className=" text-xl text-white bg-black hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <BsTwitterX />
@@ -104,7 +104,7 @@ function Navbar() {
            
 
                 <a
-                  href="https://t.me/PurplePepe_sol" target="_blank" rel="noreferrer"
+                  href="https://t.me/" target="_blank" rel="noreferrer"
                   className=" text-xl text-white bg-black hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
                 >
                   <FaTelegram />

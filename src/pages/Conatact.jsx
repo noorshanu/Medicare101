@@ -24,7 +24,7 @@ function Conatact() {
                 />
               </div>
 
-              <div className=" flex  justify-center gap-8">
+              <div className=" flex flex-col sm:flex-row  justify-center gap-2 sm:gap-8">
                 <div className=" foot-box">
                 <BiMailSend className=" text-[38px] text-white text-center flex justify-center items-center mx-auto mb-2" />
 

@@ -1,29 +1,20 @@
-import AboutUs from "./components/AboutUs";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
 
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Conatact from "./pages/Conatact";
 
 function App() {
   return (
     <>
-      <div className=" relative overflow-x-hidden">
-      <section className="wrapper">
- 
-        <div className=" hero-main ">
-        <Navbar />
-        <Hero />
-        </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Conatact />} />
 
-        <AboutUs/>
-        <div className=" pt-4">
-          {/* <Faq /> */}
-
-          <Footer />
-        </div>
-        </section>
-      </div>
-    </>
+        
+      </Routes>
+    </Router>
+  </>
   );
 }
 

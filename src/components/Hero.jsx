@@ -11,10 +11,10 @@ function Hero() {
           <div className=" w-full sm:w-1/2" data-aos="zoom-in-right" data-aos-duration="1500">
           <p className=" py-4 text-sm  mt-[10%] font-semibold text-white">Welcome to Medicare101</p>
             <h1 className="text-[#fff] text-2xl sm:text-4xl font-semibold  mb-1 ">
-            Are You Turning 65 Soon  or <br /> 
+            Turning 65 Soon   <br /> 
             </h1>
             <h1 className="text-[#e73636] text-2xl sm:text-4xl font-medium  mb-1 ">
-            Recently Retired  Feeling  <br /> 
+            Recently Retired    <br /> 
             </h1>
             <h1 className="text-[#fff] text-2xl sm:text-4xl  mb-3 ">
             Confused  About Medicare? <br /> 
@@ -25,7 +25,9 @@ function Hero() {
             </p>
 
            <div className=" w-[135px]">
-           <a href="/" className=" bg-[#1e86ff] px-2 py-2 text-xl font-semibold text-white rounded-full my-4 shadow-lg flex items-center gap-2"> <img src="images/icon.png" alt="" className="h-[40px] shadow-2xl"  /> Join us</a>
+           <a href="https://humana.zoom.us/j/91914088518?pwd=sH96F3AraLxf4o64UT7PRvxZxshFaJ.1" target="_blank"  rel="noreferrer" className=" bg-[#1e86ff] px-2 py-2 
+           text-xl font-semibold text-white rounded-full my-4 
+           shadow-lg flex items-center gap-2"> <img src="images/icon.png" alt="" className="h-[40px] shadow-2xl"  /> Join us</a>
            </div>
            
           </div>

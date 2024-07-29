@@ -29,25 +29,8 @@ function Navbar() {
         </div>
 
         {/* Wallet Connect button */}
-        <div className="md:flex items-center">
-        <div className=" flex items-center gap-4 text-white  ml-5">
-        <a
-                  href="https://x.com/" rel="noreferrer" target="_blank"
-                  className=" text-lg text-white bg-[#092f88] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#c9112d]  hover:text-[#fff]"
-                >
-                  <BsTwitterX />
-                </a>
-             
-           
+     
 
-                <a
-                  href="https://t.me/" target="_blank"  rel="noreferrer"
-                  className=" text-lg text-white bg-[#092f88] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#c9112d]  hover:text-[#fff]"
-                >
-                  <FaTelegram />
-                </a>
-              </div>
-        </div>
 
         {/* Hamburger menu for mobile */}
         <div className="md:hidden">
@@ -93,23 +76,7 @@ function Navbar() {
             <a href="/contact" className="text-white font-bold text-lg block px-3 py-2">contact</a>
             
             
-            <div className=" flex items-center gap-4 text-white mb-6 ml-5">
-            <a
-                  href="https://x.com/"
-                  className=" text-xl text-white bg-black hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
-                >
-                  <BsTwitterX />
-                </a>
-             
-           
-
-                <a
-                  href="https://t.me/" target="_blank" rel="noreferrer"
-                  className=" text-xl text-white bg-black hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#000]  hover:text-[#fff]"
-                >
-                  <FaTelegram />
-                </a>
-              </div>
+         
           </div>
         )}
       </Transition>

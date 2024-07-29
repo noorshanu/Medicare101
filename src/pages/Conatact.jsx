@@ -28,14 +28,14 @@ function Conatact() {
                 <div className=" foot-box">
                 <img src="images/icon.png" alt=""  className=" mx-auto h-[50px] mb-2"/>
 
-              <p className="text-white "> Join on Zoom meeting</p>
+              <a href="https://humana.zoom.us/j/91914088518?pwd=sH96F3AraLxf4o64UT7PRvxZxshFaJ.1" target="_blank"  rel="noreferrer" className="text-white "> Join on Zoom meeting</a>
                 </div>
 
-                <div className=" foot-box">
+                {/* <div className=" foot-box">
                 <MdAddIcCall   className=" text-[38px] text-white text-center flex justify-center items-center mx-auto mb-2"/>
 
                   <p className="text-white "> Call: 704-460-7756 </p>
-                </div>
+                </div> */}
 
                 <div className=" foot-box">
                 <FaGlobeAmericas className=" text-[38px] text-white text-center flex justify-center items-center mx-auto mb-2" />
@@ -59,7 +59,7 @@ function Conatact() {
         </h1>
 
         <div className=" flex justify-center">
-           <button className=" bg-[#1e86ff] hover px-4  text-xl font-semibold text-white rounded-full my-2 mx-auto flex gap-2 items-center shadow-2xl"> <img src="images/icon.png" alt="" className=" h-[40px] shadow-2xl" /> Join us</button>
+           <a href="https://humana.zoom.us/j/91914088518?pwd=sH96F3AraLxf4o64UT7PRvxZxshFaJ.1" target="_blank"  rel="noreferrer" className=" bg-[#1e86ff] hover px-4  py-2 text-xl font-semibold text-white rounded-full my-2 mx-auto flex gap-2 items-center shadow-2xl"> <img src="images/icon.png" alt="" className=" h-[40px] shadow-2xl" /> Join us</a>
            </div>
                 </div>
 

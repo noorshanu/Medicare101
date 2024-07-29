@@ -1,8 +1,4 @@
-import React from "react";
-import { BiMailSend } from "react-icons/bi";
-import { BsTwitterX, BsInstagram, BsFacebook } from "react-icons/bs";
-import { FaLinkedinIn, FaTelegram } from "react-icons/fa6";
-import { MdAddIcCall } from "react-icons/md";
+
 function Footer() {
   return (
     <div className=" bg-[#141f23] relative ">
@@ -10,20 +6,20 @@ function Footer() {
         <div className=" container-wrapper relative  ">
           <div className=" flex flex-col sm:flex-row justify-evenly items-center">
             <div className=" w-full sm:w-1/2">
-            <h1 className=" text-[#092f88] text-4xl font-bold">Medicare<span className="text-[#c9112d]">101</span></h1>
+            <h1 className=" text-[#092f88] text-4xl font-bold text-center py-2 sm:text-start">Medicare<span className="text-[#c9112d]">101</span></h1>
               
             </div>
 
-            <div className=" foot-box">
+            {/* <div className=" foot-box">
             <MdAddIcCall   className=" text-[38px] text-white text-center flex justify-center items-center mx-auto mb-2"/>
 
                   <p className="text-white "> Call: 704-460-7756 </p>
-            </div>
+            </div> */}
 
             <div className=" foot-box">
              <img src="images/icon.png" alt=""  className=" mx-auto h-[50px] mb-2"/>
 
-              <p className="text-white "> Join on Zoom meeting</p>
+              <a href="https://humana.zoom.us/j/91914088518?pwd=sH96F3AraLxf4o64UT7PRvxZxshFaJ.1" target="_blank"  rel="noreferrer" className="text-white "> Join on Zoom meeting</a>
             </div>
           </div>
 

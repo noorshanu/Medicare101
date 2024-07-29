@@ -21,7 +21,7 @@ function Navbar() {
 
         {/* Navigation menu */}
         <div className="hidden md:flex flex-grow justify-center">
-          <a href="/" className="text-[#092f88  font-bold text-lg px-3 py-2">Home</a>
+          <a href="/" className="text-[#092f88]  font-bold text-lg px-3 py-2">Home</a>
           <a href="#about" className="text-[#092f88] font-bold text-lg px-3 py-2">About</a>
          
          

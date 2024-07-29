@@ -1,5 +1,5 @@
 import Footer from "../components/Footer";
-import { BiMailSend } from "react-icons/bi";
+
 import Navbar from "../components/Navbar";
 import { MdAddIcCall } from "react-icons/md";
 import { FaGlobeAmericas } from "react-icons/fa";
@@ -26,9 +26,9 @@ function Conatact() {
 
               <div className=" flex flex-col sm:flex-row  justify-center gap-2 sm:gap-8">
                 <div className=" foot-box">
-                <BiMailSend className=" text-[38px] text-white text-center flex justify-center items-center mx-auto mb-2" />
+                <img src="images/icon.png" alt=""  className=" mx-auto h-[50px] mb-2"/>
 
-                  <p className="text-white "> Jpaquette@Humana.com</p>
+              <p className="text-white "> Join on Zoom meeting</p>
                 </div>
 
                 <div className=" foot-box">
@@ -44,7 +44,7 @@ function Conatact() {
               </div>
             </div>
 
-            <div className=" flex justify-center flex-col items-center gap-4 border-green-500 border-2 rounded-xl py-8 bg-[#097cbf]">
+            <div className=" flex justify-center flex-col items-center gap-4 border-[#c9112d] border-2 rounded-xl py-8 bg-[#092f88]">
 
                 <div>
                 <h1 className="text-[#fff] text-2xl sm:text-4xl font-semibold  mb-1 text-center ">

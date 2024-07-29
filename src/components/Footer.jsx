@@ -2,7 +2,7 @@ import React from "react";
 import { BiMailSend } from "react-icons/bi";
 import { BsTwitterX, BsInstagram, BsFacebook } from "react-icons/bs";
 import { FaLinkedinIn, FaTelegram } from "react-icons/fa6";
-import { IoSend } from "react-icons/io5";
+import { MdAddIcCall } from "react-icons/md";
 function Footer() {
   return (
     <div className=" bg-[#141f23] relative ">
@@ -15,9 +15,9 @@ function Footer() {
             </div>
 
             <div className=" foot-box">
-              <BiMailSend className=" text-[38px] text-white text-center flex justify-center items-center mx-auto mb-2" />
+            <MdAddIcCall   className=" text-[38px] text-white text-center flex justify-center items-center mx-auto mb-2"/>
 
-              <p className=" text-white">Jpaquette@Humana.com</p>
+                  <p className="text-white "> Call: 704-460-7756 </p>
             </div>
 
             <div className=" foot-box">

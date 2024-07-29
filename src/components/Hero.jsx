@@ -13,7 +13,7 @@ function Hero() {
             <h1 className="text-[#fff] text-2xl sm:text-4xl font-semibold  mb-1 ">
             Are You Turning 65 Soon  or <br /> 
             </h1>
-            <h1 className="text-[#88ce4a] text-2xl sm:text-4xl font-medium  mb-1 ">
+            <h1 className="text-[#e73636] text-2xl sm:text-4xl font-medium  mb-1 ">
             Recently Retired  Feeling  <br /> 
             </h1>
             <h1 className="text-[#fff] text-2xl sm:text-4xl  mb-3 ">

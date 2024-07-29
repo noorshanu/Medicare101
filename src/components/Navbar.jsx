@@ -21,11 +21,11 @@ function Navbar() {
 
         {/* Navigation menu */}
         <div className="hidden md:flex flex-grow justify-center">
-          <a href="/" className="text-[#c9112d]  font-bold text-lg px-3 py-2">Home</a>
-          <a href="#about" className="text-[#c9112d] font-bold text-lg px-3 py-2">About</a>
+          <a href="/" className="text-[#092f88  font-bold text-lg px-3 py-2">Home</a>
+          <a href="#about" className="text-[#092f88] font-bold text-lg px-3 py-2">About</a>
          
          
-          <a href="/contact" className="text-[#c9112d] font-bold text-lg px-3 py-2">Contact Us</a>
+          <a href="/contact" className="text-[#092f88] font-bold text-lg px-3 py-2">Contact Us</a>
         </div>
 
         {/* Wallet Connect button */}

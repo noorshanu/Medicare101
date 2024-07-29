@@ -8,19 +8,19 @@ function AboutUs() {
       data-aos="zoom-in-right" data-aos-duration="1500"
     >
       <div className=" container-wrapper ">
-        <h1 className=" text-center text-xl sm:text-3xl font-semibold text-[#000000] py-6 px-2 ">
+        <h1 className=" text-center text-xl sm:text-3xl font-semibold text-[#c9112d] py-6 px-2 ">
           {" "}
           Join us every Friday at 1 PM for a concise  <br /> and informative 30-minute
           Medicare 101 seminar.
         </h1>
 
-        <div className=" flex justify-between flex-col-reverse sm:flex-row gap-8 border-2 rounded-base border-[#1e86ff] p-2 ">
+        <div className=" flex justify-between flex-col-reverse sm:flex-row gap-8 border-2 rounded-base border-[#092f88] p-2 ">
           <div className=" w-full sm:w-1/2">
             <img src="images/about.jpeg" alt="" className=" h-auto sm:h-[650px] w-full" />
           </div>
 
           <div className=" w-full sm:w-1/2">
-            <h2 className=" text-2xl py-2 font-bold text-center text-[#1e86ff] ">
+            <h2 className=" text-2xl py-2 font-bold text-center text-[#c9112d] ">
               During this seminar, we will cover
             </h2>
             <ul className="list-disc pl-5 mt-4">

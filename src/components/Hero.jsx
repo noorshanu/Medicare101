@@ -3,7 +3,7 @@ import HeroSlider from "./HeroSlider";
 
 function Hero() {
   return (
-    <section className="  bg-[#097cbf] ">
+    <section className="  bg-[#092f88] ">
       <div className=" container-wrapper   overflow-hidden relative">
 
         <div className=" flex flex-col sm:flex-row justify-between py-4  sm:py-12">

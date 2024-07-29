@@ -7,12 +7,12 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className=" border-t-4 border-[#5C9A1B]  py-2  w-full z-40 shadow-xl  ">
+    <nav className=" border-t-4 border-[#092f88]  py-2  w-full z-40 shadow-xl  ">
       <div className="max-w-6xl mx-auto  flex justify-between items-center   px-4 py-1 ">
         {/* Logo */}
         <div className="flex items-center flex-shrink-0 mr-6">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="images/logo.svg" className="h-[40px]" alt=" Logo" />
+        <h1 className=" text-[#092f88] text-4xl font-bold">Medicare<span className="text-[#c9112d]">101</span></h1>
 
           
         </a>
@@ -21,11 +21,11 @@ function Navbar() {
 
         {/* Navigation menu */}
         <div className="hidden md:flex flex-grow justify-center">
-          <a href="/" className="text-[#5C9A1B]  font-bold text-lg px-3 py-2">Home</a>
-          <a href="#about" className="text-[#5C9A1B] font-bold text-lg px-3 py-2">About</a>
+          <a href="/" className="text-[#c9112d]  font-bold text-lg px-3 py-2">Home</a>
+          <a href="#about" className="text-[#c9112d] font-bold text-lg px-3 py-2">About</a>
          
          
-          <a href="/contact" className="text-[#5C9A1B] font-bold text-lg px-3 py-2">Contact Us</a>
+          <a href="/contact" className="text-[#c9112d] font-bold text-lg px-3 py-2">Contact Us</a>
         </div>
 
         {/* Wallet Connect button */}
@@ -33,7 +33,7 @@ function Navbar() {
         <div className=" flex items-center gap-4 text-white  ml-5">
         <a
                   href="https://x.com/" rel="noreferrer" target="_blank"
-                  className=" text-lg text-white bg-[#5C9A1B] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#52d631]  hover:text-[#fff]"
+                  className=" text-lg text-white bg-[#092f88] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#c9112d]  hover:text-[#fff]"
                 >
                   <BsTwitterX />
                 </a>
@@ -42,7 +42,7 @@ function Navbar() {
 
                 <a
                   href="https://t.me/" target="_blank"  rel="noreferrer"
-                  className=" text-lg text-white bg-[#5C9A1B] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#64ac2a]  hover:text-[#fff]"
+                  className=" text-lg text-white bg-[#092f88] hover:bg-[#1a4093] rounded-full p-2 border-2 border-[#c9112d]  hover:text-[#fff]"
                 >
                   <FaTelegram />
                 </a>

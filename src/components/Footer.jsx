@@ -10,11 +10,7 @@ function Footer() {
         <div className=" container-wrapper relative  ">
           <div className=" flex flex-col sm:flex-row justify-evenly items-center">
             <div className=" w-full sm:w-1/2">
-              <img
-                src=" images/logo.svg"
-                alt=""
-                className=" text-center h-[70px] mb-4 mx-auto sm:mx-0 "
-              />
+            <h1 className=" text-[#092f88] text-4xl font-bold">Medicare<span className="text-[#c9112d]">101</span></h1>
               
             </div>
 

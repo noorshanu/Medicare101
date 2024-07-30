@@ -10,8 +10,7 @@ function AboutUs() {
       <div className=" container-wrapper ">
         <h1 className=" text-center text-xl sm:text-3xl font-semibold text-[#c9112d] py-6 px-2 ">
           {" "}
-          Join us every Friday at 1 PM for a concise  <br /> and informative 30-minute
-          Medicare 101 seminar.
+          Join us on Fridays at 1 PM for an informative 30 minute Medicare 101
         </h1>
 
         <div className=" flex justify-between flex-col-reverse sm:flex-row gap-8 border-2 rounded-base border-[#092f88] p-2 ">

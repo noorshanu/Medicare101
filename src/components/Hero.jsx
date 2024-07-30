@@ -11,10 +11,10 @@ function Hero() {
           <div className=" w-full sm:w-1/2" data-aos="zoom-in-right" data-aos-duration="1500">
           <p className=" py-4 text-sm  mt-[10%] font-semibold text-white">Welcome to Medicare101</p>
             <h1 className="text-[#fff] text-2xl sm:text-4xl font-semibold  mb-1 ">
-            Turning 65 Soon   <br /> 
+            Turning 65 Soon ?  <br /> 
             </h1>
             <h1 className="text-[#e73636] text-2xl sm:text-4xl font-medium  mb-1 ">
-            Recently Retired    <br /> 
+            Recently Retired  ?  <br /> 
             </h1>
             <h1 className="text-[#fff] text-2xl sm:text-4xl  mb-3 ">
             Confused  About Medicare? <br /> 

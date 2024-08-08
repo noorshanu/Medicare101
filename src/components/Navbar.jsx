@@ -7,12 +7,13 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className=" border-t-4 border-[#092f88]  py-2  w-full z-40 shadow-xl  ">
+    <nav className=" border-t-4 border-[#092f88]  py-1  w-full z-40 shadow-xl  ">
       <div className="max-w-6xl mx-auto  flex justify-between items-center   px-4 py-1 ">
         {/* Logo */}
         <div className="flex items-center flex-shrink-0 mr-6">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-        <h1 className=" text-[#092f88] text-4xl font-bold">Medicare<span className="text-[#c9112d]">101</span></h1>
+        {/* <h1 className=" text-[#092f88] text-4xl font-bold">Medicare<span className="text-[#c9112d]">101</span></h1> */}
+        <img src="images/logo.jpeg" alt=""  className=" h-[60px]"/>
 
           
         </a>
@@ -25,7 +26,7 @@ function Navbar() {
           <a href="#about" className="text-[#092f88] font-bold text-lg px-3 py-2">About</a>
          
          
-          <a href="/contact" className="text-[#092f88] font-bold text-lg px-3 py-2">Contact Us</a>
+          {/* <a href="/contact" className="text-[#092f88] font-bold text-lg px-3 py-2">Contact Us</a> */}
         </div>
 
         {/* Wallet Connect button */}
@@ -73,7 +74,7 @@ function Navbar() {
           >
             <a href="/" className="text-white font-bold text-lg block px-3 py-2">Home</a>
           
-            <a href="/contact" className="text-white font-bold text-lg block px-3 py-2">contact</a>
+            {/* <a href="/contact" className="text-white font-bold text-lg block px-3 py-2">contact</a> */}
             
             
          

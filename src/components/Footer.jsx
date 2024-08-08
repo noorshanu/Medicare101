@@ -6,7 +6,9 @@ function Footer() {
         <div className=" container-wrapper relative  ">
           <div className=" flex flex-col sm:flex-row justify-evenly items-center">
             <div className=" w-full sm:w-1/2">
-            <h1 className=" text-[#092f88] text-4xl font-bold text-center py-2 sm:text-start">Medicare<span className="text-[#c9112d]">101</span></h1>
+            {/* <h1 className=" text-[#092f88] text-4xl font-bold text-center py-2 sm:text-start">Medicare<span className="text-[#c9112d]">101</span></h1> */}
+
+            <img src="images/logo.jpeg" alt=""  className=" h-[100px]"/>
               
             </div>
 
@@ -27,7 +29,7 @@ function Footer() {
             <div className=" flex justify-between items-center flex-col sm:flex-row">
               <div>
                 <p className=" text-white text-sm">
-                  Copyright © Humana 2024 All Rights Reserved.
+                  Copyright © HarvestCenter 2024 All Rights Reserved.
                 </p>
               </div>
 
@@ -37,9 +39,7 @@ function Footer() {
                     About
                   </a>
 
-                  <a href="/contact" className="text-white  text-sm ">
-                    Contact Us
-                  </a>
+            
                 </div>
               </div>
             </div>

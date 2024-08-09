@@ -6,9 +6,9 @@ function Footer() {
         <div className=" container-wrapper relative  ">
           <div className=" flex flex-col sm:flex-row justify-evenly items-center">
             <div className=" w-full sm:w-1/2">
-            {/* <h1 className=" text-[#092f88] text-4xl font-bold text-center py-2 sm:text-start">Medicare<span className="text-[#c9112d]">101</span></h1> */}
+            <h1 className=" text-[#092f88] text-4xl font-bold text-center py-2 sm:text-start">Medicare<span className="text-[#c9112d]">101</span></h1>
 
-            <img src="images/logo.jpeg" alt=""  className=" h-[100px]"/>
+
               
             </div>
 
@@ -26,22 +26,13 @@ function Footer() {
           </div>
 
           <div className=" relative    mx-auto left-0 right-0 ">
-            <div className=" flex justify-between items-center flex-col sm:flex-row">
+            <div className=" flex justify-center items-center flex-col sm:flex-row">
               <div>
-                <p className=" text-white text-sm">
-                  Copyright © HarvestCenter 2024 All Rights Reserved.
+                <p className=" text-white text-sm flex items-center gap-2">
+                Sponsored by the harvest center of Charlotte   <img src="images/logo.jpeg" alt=""  className=" h-[50px]"/>
                 </p>
               </div>
 
-              <div className=" ">
-                <div className="  grid sm:grid-cols-4 grid-cols-2 items-center gap-2 sm:gap-6  sm:justify-normal justify-center mx-auto ">
-                  <a href="#about" className="text-white  text-sm block ">
-                    About
-                  </a>
-
-            
-                </div>
-              </div>
             </div>
           </div>
         </div>

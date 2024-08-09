@@ -12,8 +12,8 @@ function Navbar() {
         {/* Logo */}
         <div className="flex items-center flex-shrink-0 mr-6">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-        {/* <h1 className=" text-[#092f88] text-4xl font-bold">Medicare<span className="text-[#c9112d]">101</span></h1> */}
-        <img src="images/logo.jpeg" alt=""  className=" h-[60px]"/>
+        <h1 className=" text-[#092f88] text-4xl font-bold">Medicare<span className="text-[#c9112d]">101</span></h1>
+        {/* <img src="images/logo.jpeg" alt=""  className=" h-[60px]"/> */}
 
           
         </a>

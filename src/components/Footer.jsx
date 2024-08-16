@@ -1,3 +1,4 @@
+import { BsTelegram, BsTwitterX } from "react-icons/bs";
 
 function Footer() {
   return (
@@ -23,6 +24,17 @@ function Footer() {
 
               <a href="https://humana.zoom.us/j/91914088518?pwd=sH96F3AraLxf4o64UT7PRvxZxshFaJ.1" target="_blank"  rel="noreferrer" className="text-white "> Join on Zoom meeting</a>
             </div>
+
+            <div className=" foot-box">
+            <div className=" flex items-center justify-center ">
+          <a href="http://t.me/MEDICARE101" target="_blank" rel="noreferrer" className="   text-white text-5xl  mb-2"> 
+        <BsTelegram/>
+          </a>
+        </div>
+
+              <a href="http://t.me/MEDICARE101" target="_blank"  rel="noreferrer" className="text-white "> Join on Telegram</a>
+            </div>
+            
           </div>
 
           <div className=" relative    mx-auto left-0 right-0 ">

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import { BsTwitterX, BsInstagram, BsFacebook } from "react-icons/bs";
+import { BsTwitterX, BsInstagram, BsFacebook, BsTelegram } from "react-icons/bs";
 import { FaLinkedinIn, FaTelegram } from "react-icons/fa6";
 
 function Navbar() {
@@ -30,6 +30,11 @@ function Navbar() {
         </div>
 
         {/* Wallet Connect button */}
+        <div className=" flex items-center ">
+          <a href="http://t.me/MEDICARE101" target="_blank" rel="noreferrer" className="   text-3xl  rounded-full"> 
+          <BsTelegram/>
+          </a>
+        </div>
      
 
 
